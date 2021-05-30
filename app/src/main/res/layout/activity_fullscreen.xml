@@ -19,7 +19,7 @@
         android:keepScreenOn="true"
         android:text="@string/dummy_content"
         android:textColor="?attr/fullscreenTextColor"
-        android:textSize="34sp"
+        android:textSize="24sp"
         android:textStyle="bold" />
 
     <!-- This FrameLayout insets its children based on system windows using
@@ -44,6 +44,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:drawableStart="@drawable/ic_baseline_send_24"
+                android:drawableEnd="@drawable/ic_login_24"
                 android:text="@string/dummy_button" />
 
         </LinearLayout>
