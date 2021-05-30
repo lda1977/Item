@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Item</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="dummy_button">Click para Entrar</string>
+    <string name="dummy_content">SISTEMA APP\n\nFORNECEDOR\nATUALIZE\nOS\nPREÇOS</string>
+
 </resources>

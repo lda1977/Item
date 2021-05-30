@@ -2,10 +2,12 @@ package br.com.ptz.item
 
 import android.support.v7.app.AppCompatActivity
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.view.MotionEvent
 import android.view.View
+import android.widget.Button
 import android.widget.LinearLayout
 import android.widget.TextView
 import br.com.ptz.item.databinding.ActivityFullscreenBinding
@@ -76,6 +78,18 @@ class FullscreenActivity : AppCompatActivity() {
         // Set up the user interaction to manually show or hide the system UI.
         fullscreenContent = binding.fullscreenContent
         fullscreenContent.setOnClickListener { toggle() }
+
+        //Button Login
+        ///////////////////
+        val Logar = findViewById<Button>(R.id.dummy_button) as Button
+
+        Logar.setOnClickListener {
+            val fscintent = Intent(this, LoginActivity::class.java).apply {
+            }
+            startActivity(fscintent)
+        }
+
+
 
         fullscreenContentControls = binding.fullscreenContentControls
 
