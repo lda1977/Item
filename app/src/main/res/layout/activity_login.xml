@@ -56,16 +56,19 @@
                         android:layout_height="wrap_content"
                         android:text="@string/txtEmail" />
 
-                    <EditText
-                        android:id="@+id/username"
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/txtInputEmail"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:drawableStart="@drawable/ic_baseline_email_24"
-                        android:ems="10"
-                        android:hint="@string/username"
-                        android:importantForAutofill="no"
-                        android:inputType="textEmailAddress"
-                        android:singleLine="true" />
+                        android:layout_height="match_parent">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/txtInpEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawableStart="@drawable/ic_baseline_email_24"
+                            android:hint="@string/txtemail"
+                            android:singleLine="true" />
+                    </android.support.design.widget.TextInputLayout>
 
                     <TextView
                         android:id="@+id/txtPassWord"
@@ -77,7 +80,8 @@
                         android:id="@+id/txtInputPassWord"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        app:passwordToggleEnabled="true" android:layout_gravity="">
+                        app:passwordToggleEnabled="true"
+                        android:layout_gravity="">
 
                         <android.support.design.widget.TextInputEditText
                             android:id="@+id/txtInpPassword"

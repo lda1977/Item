@@ -10,6 +10,7 @@
     <string name="txtEmail">Digite o seu E-mail</string>
     <string name="imgLogo">Logo Marca</string>
     <string name="txtPassWord">Digite a sua Senha</string>
+    <string name="txtemail">E-mail:</string>
     <string name="txtpassword">Senha:</string>
     <string name="imgItem">Logo do Sistema</string>
     <string name="nav_sair">Sair</string>
