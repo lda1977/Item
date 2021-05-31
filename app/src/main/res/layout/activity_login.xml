@@ -52,7 +52,7 @@
                         app:srcCompat="@drawable/logo7" />
 
                     <TextView
-                        android:id="@+id/txtEmail"
+                        android:id="@+id/txtResulEmail"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/txtEmail" />

@@ -15,5 +15,6 @@
     <string name="imgItem">Logo do Sistema</string>
     <string name="nav_sair">Sair</string>
     <string name="btnLogar">logar</string>
+    <string name="txtResulEmail">Resultado da consulta ao E-mail.</string>
 
 </resources>

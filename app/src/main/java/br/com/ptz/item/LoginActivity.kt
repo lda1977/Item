@@ -1,3 +1,5 @@
+@file:Suppress("UNUSED_VARIABLE")
+
 package br.com.ptz.item
 
 import android.support.v7.app.AppCompatActivity
@@ -6,6 +8,10 @@ import android.view.View
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
+import android.content.Intent
+import br.com.ptz.item.sistema.FornecedorActivity
+
+const val  EXTRA_MESSAGE = "br.com.ptz.itens.MESSAGE"
 
 class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -28,6 +34,15 @@ class LoginActivity : AppCompatActivity() {
             // Fazendo uma comparação de variáveis
             if(login == "teste" && senha == "123"){
                 ALERTA("Login com Sucesso")
+
+                val message = tLogin.text.toString()
+                //val messageP = tSenha.text.toString()
+
+                val intent = Intent(this, FornecedorActivity::class.java).apply {
+                    putExtra(EXTRA_MESSAGE, message)
+                }
+                startActivity(intent)
+
             }else{
                 ALERTA("Erro! Login ou Senha incorretos, tente novamente.")
             }
@@ -39,4 +54,6 @@ class LoginActivity : AppCompatActivity() {
         // Aqui vou verificar se foi logado  com sucesso ou não
         Toast.makeText(this, ResultadoLogin, Toast.LENGTH_LONG).show()
     }
+
+
 }
