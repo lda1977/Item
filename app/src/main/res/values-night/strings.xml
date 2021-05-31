@@ -14,5 +14,7 @@
 
     <string name="username">E-mail:</string>
     <string name="txtpassword">Senha:</string>
+    <string name="imgItem">Logo do Sistema</string>
+    <string name="nav_sair">Sair</string>
 
 </resources>

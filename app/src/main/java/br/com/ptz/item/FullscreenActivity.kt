@@ -5,11 +5,14 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
+import android.view.Menu
+import android.view.MenuItem
 import android.view.MotionEvent
 import android.view.View
 import android.widget.Button
 import android.widget.LinearLayout
 import android.widget.TextView
+import android.widget.Toast
 import br.com.ptz.item.databinding.ActivityFullscreenBinding
 
 /**
@@ -98,9 +101,27 @@ class FullscreenActivity : AppCompatActivity() {
         binding.dummyButton.setOnTouchListener(delayHideTouchListener)
     }
 
-
-
-
+    ///////////////////////////////////////////////////////
+    // Função onCreateOptionsMenu onde vai inflar o menu
+    //////////////////////////////////////////////////////
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.nav_menu,menu)
+        return true
+    }
+    ///////////////////////////////////////////////////////
+    // Função onOptionsItemSelected onde verifica o item selecionado
+    //////////////////////////////////////////////////////
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when(item.itemId){
+            R.id.nav_sair ->{
+                this.finish()
+                Toast.makeText(this, "Sair", Toast.LENGTH_SHORT).show()
+                true
+            }
+            else -> true
+        }
+        return super.onOptionsItemSelected(item)
+    }
 
     override fun onPostCreate(savedInstanceState: Bundle?) {
         super.onPostCreate(savedInstanceState)
