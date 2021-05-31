@@ -19,4 +19,6 @@
     <string name="btnLogar">logar</string>
     <string name="txtResulEmail">Resultado da consulta ao E-mail.</string>
 
+    <string name="btnPreco">Preço</string>
+
 </resources>

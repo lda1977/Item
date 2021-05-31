@@ -8,7 +8,7 @@
     <string name="app_name_sistema">.: Buscar :.</string>
     <string name="app_name_seleciona">.: Selecionar Item:.</string>
     <string name="app_name_fornecedor">.: Fornecedor :.</string>
-    <string name="app_name_preco">.:Atualizar o Preço do Item:.</string>
+    <string name="app_name_preco">.:Atualize o Preço R$:.</string>
 
     <string name="userpassword">Digite seu Password:</string>
     <string name="userEmail">Digite seu E-mail:</string>
@@ -25,5 +25,12 @@
 
     <string name="btnLogar">logar</string>
     <string name="txtResulEmail">Resultado da consulta ao E-mail.</string>
+
+    <string name="DataItemFabrico">Data Fab.</string>
+    <string name="DataItem">Data Val.</string>
+    <string name="CipItem">CIP</string>
+    <string name="PrecoItem">Preço</string>
+    <string name="btnPreco2">Preço</string>
+    <string name="btnPreco">Preço</string>
 
 </resources>
