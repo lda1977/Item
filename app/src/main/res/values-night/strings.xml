@@ -16,5 +16,6 @@
     <string name="txtpassword">Senha:</string>
     <string name="imgItem">Logo do Sistema</string>
     <string name="nav_sair">Sair</string>
+    <string name="btnLogar">logar</string>
 
 </resources>

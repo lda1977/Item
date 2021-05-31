@@ -98,10 +98,10 @@
                         android:id="@+id/btnLogar"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="#B5A2A2"
+                        android:background="#E65757"
                         android:drawableStart="@drawable/ic_baseline_send_24"
                         android:drawableEnd="@drawable/ic_login"
-                        android:text="logar"
+                        android:text="@string/btnLogar"
                         android:textColor="#FFFFFF" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
