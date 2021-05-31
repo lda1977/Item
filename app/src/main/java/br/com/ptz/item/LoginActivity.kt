@@ -25,15 +25,21 @@ class LoginActivity : AppCompatActivity() {
         EntranoSistema.setOnClickListener {
 
             val tLogin = findViewById<View>(R.id.txtInpEmail) as TextView  // Que é o testo Login
-            val tSenha = findViewById<View>(R.id.txtInpPassword) as TextView  // Que é o testo Login
+            val tSenha = findViewById<View>(R.id.txtInpPassword) as TextView  // Que é o testo Senha
 
             // Salvando em variaveis String Separadas
             val login = tLogin.text.toString()
             val senha = tSenha.text.toString()
 
+            // Aqui vou chamara o DBA
+
+            // Variáveis de Resultado do DBA
+            val ResultadoLoginDBA = login
+            val ResultadoSenhaDBA = senha
+
             // Fazendo uma comparação de variáveis
-            if(login == "teste" && senha == "123"){
-                ALERTA("Login com Sucesso")
+            if(ResultadoLoginDBA == "teste" && ResultadoSenhaDBA == "123"){
+                ALERTA("Login com Sucesso!")
 
                 val message = tLogin.text.toString()
                 //val messageP = tSenha.text.toString()
@@ -44,7 +50,7 @@ class LoginActivity : AppCompatActivity() {
                 startActivity(intent)
 
             }else{
-                ALERTA("Erro! Login ou Senha incorretos, tente novamente.")
+                ALERTA("Erro!!! Login ou Senha incorretos, tente novamente.")
             }
         }
     }
