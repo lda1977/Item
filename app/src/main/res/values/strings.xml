@@ -1,6 +1,13 @@
 <resources>
-    <string name="app_name">Item</string>
+    <string name="app_name">..:: Preço R$ ::..</string>
     <string name="dummy_button">Click para Entrar</string>
     <string name="dummy_content">SISTEMA APP\n\nFORNECEDOR\nATUALIZE\nOS\nPREÇOS</string>
+    <string name="imgLogo">Logo Marca</string>
 
+
+
+    <string name="userpassword">Digite seu Password:</string>
+    <string name="userEmail">Digite seu E-mail:</string>
+
+    <string name="username">E-mail:</string>
 </resources>
