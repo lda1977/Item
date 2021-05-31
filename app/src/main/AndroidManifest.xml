@@ -9,12 +9,29 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Item">
-        <activity android:name=".sistema.FornecedorActivity"></activity>
-        <activity android:name=".LoginActivity" />
+
+        <activity
+            android:name=".sistema.FornecedorActivity"
+            android:label="@string/app_name_fornecedor"
+            android:launchMode="singleTop"
+            android:parentActivityName="LoginActivity">
+
+        </activity>
+
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name_restrito"
+            android:launchMode="singleTop"
+            android:parentActivityName=".FullscreenActivity">
+
+        </activity>
+
         <activity
             android:name=".FullscreenActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:parentActivityName=".FullscreenActivity"
             android:theme="@style/Theme.Item.Fullscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

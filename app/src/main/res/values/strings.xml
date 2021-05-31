@@ -1,7 +1,13 @@
 <resources>
-    <string name="app_name">..:: Preço R$ ::..</string>
+    <string name="app_name">Item</string>
     <string name="dummy_button">Click para Entrar</string>
     <string name="dummy_content">SISTEMA APP\n\nFORNECEDOR\nATUALIZE\nOS\nPREÇOS</string>
+
+    <string name="app_name_restrito">Login ..:: Acesso Restritor ::..</string>
+    <string name="app_name_sistema">..::Buscar::..</string>
+    <string name="app_name_seleciona">..::Selecionar Item::..</string>
+    <string name="app_name_fornecedor">.: Fornecedor :.</string>
+    <string name="app_name_preco">.:Atualizar o Preço do Item:.</string>
 
     <string name="userpassword">Digite seu Password:</string>
     <string name="userEmail">Digite seu E-mail:</string>
@@ -13,7 +19,9 @@
     <string name="txtemail">E-mail:</string>
     <string name="txtpassword">Senha:</string>
     <string name="imgItem">Logo do Sistema</string>
+
     <string name="nav_sair">Sair</string>
+
     <string name="btnLogar">logar</string>
     <string name="txtResulEmail">Resultado da consulta ao E-mail.</string>
 
