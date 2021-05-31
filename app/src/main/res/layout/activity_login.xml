@@ -47,6 +47,7 @@
                         android:id="@+id/imgLogo"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
                         android:contentDescription="@string/imgLogo"
                         app:srcCompat="@drawable/logo7" />
 
@@ -92,6 +93,16 @@
                             android:password="true"
                             android:singleLine="true" />
                     </android.support.design.widget.TextInputLayout>
+
+                    <Button
+                        android:id="@+id/btnLogar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#B5A2A2"
+                        android:drawableStart="@drawable/ic_baseline_send_24"
+                        android:drawableEnd="@drawable/ic_login"
+                        android:text="logar"
+                        android:textColor="#FFFFFF" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
         </LinearLayout>
