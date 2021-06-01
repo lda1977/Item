@@ -29,5 +29,10 @@
     <string name="PrecoItem">Preço</string>
     <string name="btnPreco2">Preço</string>
     <string name="btnPreco">Preço</string>
+    <string name="txt_id">Id</string>
+    <string name="txt_result_nome">Bacon</string>
+    <string name="txt_result_cip">157</string>
+    <string name="txt_result_preco">12.85</string>
+    <string name="textView">Test Text</string>
 
 </resources>
