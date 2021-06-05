@@ -35,9 +35,24 @@
             android:layout_marginBottom="12dp"
             android:background="@color/purple_200"
             android:drawableEnd="@drawable/ic_baseline_send_24"
+            android:drawableRight="@drawable/ic_baseline_send_24"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textStyle="bold"
             android:shadowColor="#9E2424"
             android:text="@string/btnPreco"
             android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/tv_reslta"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#C7F1CE"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
     </LinearLayout>
 
 </ScrollView>
