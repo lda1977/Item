@@ -34,5 +34,10 @@
     <string name="txt_result_cip">157</string>
     <string name="txt_result_preco">12.85</string>
     <string name="textView">Test Text</string>
+    <string name="txtBemVindo">Seja bem vindo Fornecedor!</string>
+    <string name="txtInformacao">Aqui você vai efetuar a seleção de um Item por vez! No qual sua empresa é fornecedora.</string>
+    <string name="txtResultadoConsulta">Consulta ao Sql</string>
+    <string name="ResultadoErroSql">Sem Erro de SQL Server</string>
+    <string name="btnConsultar">Consultar</string>
 
 </resources>
