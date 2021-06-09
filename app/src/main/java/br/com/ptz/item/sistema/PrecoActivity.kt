@@ -22,7 +22,7 @@ class PrecoActivity : AppCompatActivity() {
 
         text = findViewById<View>(R.id.textView) as TextView
         errorText = findViewById<View>(R.id.textView2) as TextView
-        show = findViewById<View>(R.id.button) as Button
+        show = findViewById<Button>(R.id.button) as Button
         show!!.setOnClickListener { Task().execute() }
 
     }
@@ -35,12 +35,14 @@ class PrecoActivity : AppCompatActivity() {
                 Class.forName("com.mysql.jdbc.Driver")
                 val connection = DriverManager.getConnection("jdbc:mysql://192.168.1.164:3306/fornecedor", "andro", "andro")
                 val statement = connection.createStatement()
-                val resultSet = statement.executeQuery("SELECT * FROM fornecedor.user")
-                while (resultSet.next()) {
-                    records += """${resultSet.getString(1)} ${resultSet.getString(2)} ${resultSet.getString(3)} ${resultSet.getString(4)}
+                val resultSet = statement.executeQuery("SELECT Email\n" +
+                        "FROM `fornecedor`.`user`")
+                    while(resultSet.next()){
+                    records += """${resultSet.getString(1)} 
 """
-                }
-            } catch (e: Exception) {
+                    }
+
+                } catch (e: Exception) {
                 error = e.toString()
             }
             return null
@@ -52,8 +54,4 @@ class PrecoActivity : AppCompatActivity() {
             super.onPostExecute(aVoid)
         }
     }
-
-
-
-
 }

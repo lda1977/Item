@@ -78,7 +78,7 @@
         <TextView
             android:id="@+id/tv_reslta"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="504dp"
             android:background="#C7F1CE"
             android:gravity="center"
             app:layout_constraintBottom_toBottomOf="parent"
