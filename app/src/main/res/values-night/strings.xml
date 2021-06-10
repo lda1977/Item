@@ -1,35 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="app_name">..:: Preço R$ ::..</string>
-    <string name="dummy_button">Click para Entrar</string>
+    <string name="app_name">Item</string>
+    <string name="dummy_button">...:: Click para Entrar ::...</string>
     <string name="dummy_content">SISTEMA APP\n\nFORNECEDOR\nATUALIZE\nOS\nPREÇOS</string>
-
-    <string name="imgLogo">Logo Marca</string>
-    <string name="txtEmail">Digite o seu E-mail</string>
-    <string name="txtPassWord">Digite a sua Senha</string>
-
-    <string name="userpassword">Digite seu Password:</string>
-    <string name="userEmail">Digite seu E-mail:</string>
-
+    <string name="app_name_restrito">.: Acesso Restritro :.</string>
+    <string name="app_name_sistema">.: Buscar :.</string>
+    <string name="app_name_seleciona">.: Selecionar Item:.</string>
+    <string name="app_name_fornecedor">.: Fornecedor :.</string>
+    <string name="app_name_preco">.: Preço R$ :.</string>
     <string name="username">E-mail:</string>
+    <string name="txtEmail">..:: Digite o E-mail ::..</string>
+    <string name="imgLogo">Logo Marca</string>
+    <string name="txtPassWord">..:: Digite a Senha ::..</string>
+    <string name="txtemail">E-mail:</string>
     <string name="txtpassword">Senha:</string>
     <string name="imgItem">Logo do Sistema</string>
     <string name="nav_sair">Sair</string>
     <string name="btnLogar">logar</string>
     <string name="txtResulEmail">Resultado da consulta ao E-mail.</string>
-
+    <string name="DataItemFabrico">Data Fab.</string>
+    <string name="DataItem">Data Val.</string>
+    <string name="CipItem">CIP</string>
+    <string name="PrecoItem">Preço</string>
+    <string name="btnPreco2">Preço</string>
     <string name="btnPreco">Preço</string>
     <string name="txt_id">Id</string>
     <string name="txt_result_nome">Bacon</string>
     <string name="txt_result_cip">157</string>
     <string name="txt_result_preco">12.85</string>
-    <string name="textView">TextView</string>
+    <string name="textView">Test Text</string>
     <string name="txtBemVindo">Seja bem vindo Fornecedor!</string>
-    <string name="txtInformativo">TextView</string>
-    <string name="txtInformacao">txtInformacao</string>
+    <string name="txtInformacao">Aqui você vai efetuar a seleção de um Item por vez! No qual sua empresa é fornecedora.</string>
     <string name="txtResultadoConsulta">Consulta ao Sql</string>
     <string name="ResultadoErroSql">Sem Erro de SQL Server</string>
     <string name="btnConsultar">Consultar</string>
-
 </resources>

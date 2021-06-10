@@ -24,6 +24,7 @@ class LoginActivity : AppCompatActivity() {
         // Chamando onclicklistenner
         EntranoSistema.setOnClickListener {
 
+            // Pegando o conteudo dos campos txtInpEmail e txtInpPassword
             val tLogin = findViewById<View>(R.id.txtInpEmail) as TextView  // Que é o testo Login
             val tSenha = findViewById<View>(R.id.txtInpPassword) as TextView  // Que é o testo Senha
 
