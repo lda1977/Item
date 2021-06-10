@@ -9,6 +9,8 @@ import android.widget.TextView
 import br.com.ptz.item.EXTRA_MESSAGE
 import br.com.ptz.item.R
 
+
+
 class FornecedorActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
